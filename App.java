@@ -1,6 +1,6 @@
 /**
- * Magnifique programme
- * @author Bobo
+ * App Minesweeper
+ * @author Elliot Galaor
  * @version 1.0
  */
 //import java.awt.Color;

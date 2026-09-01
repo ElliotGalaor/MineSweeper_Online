@@ -62,7 +62,7 @@ class Case extends JPanel implements MouseListener{
             if(boom) {
                 gc.setColor(Color.RED);
                 gc.fillRect(2, 2, getWidth() - 4, getHeight() - 4);
-                gc.drawImage(toolkit.getImage("./src/Mine.png"), (getWidth()-20)/2,0,this);
+                gc.drawImage(toolkit.getImage("Mine.png"), (getWidth()-20)/2,0,this);
             }
             else {
                 gc.setColor(colorCase);
@@ -72,9 +72,9 @@ class Case extends JPanel implements MouseListener{
             }
         }
         else {
-            gc.setColor(Color.BLUE);
+            gc.setColor(Color.LIGHT_GRAY);
             gc.fillRect(2, 2, getWidth() - 4, getHeight() - 4);
-            //gc.drawImage(toolkit.getImage("./src/Flag.png"), (getWidth()-20)/2,0,this);
+            gc.drawImage(toolkit.getImage("Flag.png"), (getWidth()-20)/2,0,this);
             //System.out.println(didIt); 
         }
         mouseClicked = false;
