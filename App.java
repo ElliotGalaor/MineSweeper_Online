@@ -17,11 +17,11 @@ public class App extends JFrame {
 
     boolean flagMode = false;
     boolean newGame = true;
-    ImageIcon iconLoser = new ImageIcon("./src/Loser.jpg");
-    ImageIcon iconWinner = new ImageIcon("./src/Winner.jpg");
-    ImageIcon iconSad = new ImageIcon("./src/Sad.jpg");
-    ImageIcon iconInternet = new ImageIcon("./src/Internet.png");
-    ImageIcon iconGameOver = new ImageIcon("./src/GameOver.png");
+    ImageIcon iconLoser = new ImageIcon("Loser.jpg");
+    ImageIcon iconWinner = new ImageIcon("Winner.jpg");
+    ImageIcon iconSad = new ImageIcon("Sad.jpg");
+    ImageIcon iconInternet = new ImageIcon("Internet.png");
+    ImageIcon iconGameOver = new ImageIcon("GameOver.png");
     Champ c = new Champ(this);
     GUI gui;
     int score = 0;

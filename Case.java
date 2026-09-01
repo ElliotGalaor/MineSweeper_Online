@@ -72,9 +72,9 @@ class Case extends JPanel implements MouseListener{
             }
         }
         else {
-            gc.setColor(Color.LIGHT_GRAY);
+            gc.setColor(Color.BLUE);
             gc.fillRect(2, 2, getWidth() - 4, getHeight() - 4);
-            gc.drawImage(toolkit.getImage("./src/Flag.png"), (getWidth()-20)/2,0,this);
+            //gc.drawImage(toolkit.getImage("./src/Flag.png"), (getWidth()-20)/2,0,this);
             //System.out.println(didIt); 
         }
         mouseClicked = false;
@@ -215,6 +215,7 @@ class Case extends JPanel implements MouseListener{
     /** la gestion de la souris */
     @Override
     public void mouseEntered (MouseEvent e) {
+        System.out.print(x + ", " + y + " : " + flag + "\n");
         if(!app.connected) {
             if(flag) {
                 hoverFlag = false;
@@ -242,6 +243,7 @@ class Case extends JPanel implements MouseListener{
     /** la gestion de la souris */
     @Override
     public void mouseExited (MouseEvent e) {
+        //System.out.print(x + ", " + y + " : Out\n");
         if(hoverFlag && !app.connected) { ///pbm a résoudre
             hoverFlag = false;
             if(!mouseClicked) {
