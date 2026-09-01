@@ -6,6 +6,7 @@ Implementation of a Minesweeper game in Java as part of a school project. The ga
 ## Features
 
 ### ✅ Implemented
+- **Graphical Interface** : Interactive grid in Swing/JavaFX
 - **Gameplay** : Cell revelation, mine marking, victory/defeat detection
 - **Difficulty Levels** : Easy, Medium, Hard, Impossible
 - **Standard Rules** : Adjacent mine display, cascade overflow
